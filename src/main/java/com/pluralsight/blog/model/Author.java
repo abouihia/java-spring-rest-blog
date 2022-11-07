@@ -25,6 +25,8 @@ public class Author {
     @OneToMany
     private List<Post> posts;
 
+    @Version
+    private Long version;
 
 
     public Author() {
